@@ -1,0 +1,40 @@
+{
+  "nodes": {
+    "betaflight-blackbox-explorer-src": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-sbfG+pgA4QyhEGvjKSaE+xI5WXVTS96VftT1DmDPvTg=",
+        "type": "tarball",
+        "url": "https://github.com/betaflight/blackbox-log-viewer/releases/download/3.6.0/betaflight-blackbox-explorer_3.6.0_linux64-portable.zip"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/betaflight/blackbox-log-viewer/releases/download/3.6.0/betaflight-blackbox-explorer_3.6.0_linux64-portable.zip"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1656335358,
+        "narHash": "sha256-t0PZIFCKgjF2WQ0NC6ORigdGgLqQD3vtT+Jx/dhjNsY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "62de360d75419386b69ea4af4a8ce104949a8242",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "release-22.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "betaflight-blackbox-explorer-src": "betaflight-blackbox-explorer-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
