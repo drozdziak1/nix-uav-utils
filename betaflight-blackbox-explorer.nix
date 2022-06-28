@@ -1,3 +1,4 @@
+# The explorer seems to use more stuff than just the NW.js chromium wrapper so we patch its binary directly
 { alsa-lib
 , at-spi2-atk
 , atk

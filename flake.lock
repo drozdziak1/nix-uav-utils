@@ -12,6 +12,18 @@
         "url": "https://github.com/betaflight/blackbox-log-viewer/releases/download/3.6.0/betaflight-blackbox-explorer_3.6.0_linux64-portable.zip"
       }
     },
+    "betaflight-configurator-src": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-VnLcj4zMkUYV0c87+br2tHppHECyqUZo67AyfZJ1Ujg=",
+        "type": "tarball",
+        "url": "https://github.com/betaflight/betaflight-configurator/releases/download/10.8.0/betaflight-configurator_10.8.0_linux64-portable.zip"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/betaflight/betaflight-configurator/releases/download/10.8.0/betaflight-configurator_10.8.0_linux64-portable.zip"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1656335358,
@@ -31,6 +43,7 @@
     "root": {
       "inputs": {
         "betaflight-blackbox-explorer-src": "betaflight-blackbox-explorer-src",
+        "betaflight-configurator-src": "betaflight-configurator-src",
         "nixpkgs": "nixpkgs"
       }
     }
