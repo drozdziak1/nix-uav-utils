@@ -1,5 +1,5 @@
 {
-  description = "Flake for installing betaflight tools";
+  description = "Flake for various tools from the Betaflight ecosystem";
 
   inputs =
     {
